@@ -240,11 +240,6 @@ def is_valid_exit(exits, chosen_exit):
     True
     """
 
-    for key in exits:
-        if user_input == key:
-            return True
-
-    return False
     return chosen_exit in exits
 
 
